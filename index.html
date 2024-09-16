@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Escape se for capaz</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src=https://img.freepik.com/fotos-premium/uma-ilustracao-dos-desenhos-animados-de-uma-cabana-na-floresta-com-uma-cabana-ao-fundo_670541-3539.jpg?w900 alt="">
+            <p>Oh não, você acordou em um lugar desconhecido! como você fará para retornar?</p>
+            <button class="btn-proximo" data-proximo="1">Vou olhar em direção a floresta</button>
+            <button class="btn-proximo" data-proximo="2">Vou seguir para a cabana no final da estrada</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>você parece não saber por onde está seguindo.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar um mapa</button>
+            <button class="btn-proximo" data-proximo="4">Voltar para onde estava</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src=https://img.freepik.com/fotos-premium/um-homem-dormindo-em-uma-cama-com-uma-lampada-na-janela_1308172-445623.jpg?w360 alt="ir em direção a cabana">
+            <p>você chegou a cabana e decidiu entrar, lá você encontrou um senhor muito estranho dormindo, o que fazer?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o local por conta própria</button>
+            <button class="btn-proximo" data-proximo="6">tentar falar com o senhor</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>voĉe procurou bastante e finalmente encontrou um mapa</p>
+            <button class="btn-proximo" data-proximo="7">seguir a rota indicada no mapa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src=https://img.freepik.com/fotos-gratis/paisagem-de-danos-extremos-do-tufao_23-2150879994.jpg?tst1725641660~exp725645260~hmacab6b7e35e7d76a5525462890953130b8e1bf1c9dd245e6494567f9a751711bfa&w740 alt="bad ending">
+            <p>você tentou voltar para escapar porém ficou ainda mais perdido, não conseguiu voltar pra casa e ficou la pra sempre e nunca foi
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>o senhor acorda e fica furioso por você estar mexendo em suas coisas</p>
+            <button class="btn-proximo" data-proximo="4">sair correndo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>você foi educado (a) então o senhor foi simpatico com voĉe e te indicou o caminho para você encontrar o mapa que te leva pra fora desse lugar</p>
+            <button class="btn-proximo" data-proximo="3">procurar o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>chega um momento em que o caminho indicado pelo mapa termina, e você tem duas opções.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>você tentou voltar e sem querer encontrou o caminho de volta pra casa (esse não è o verdadeiro final) </p>
+            <button class="btn-proximo" data-proximo="13">aceitar o final</button>
+            <button class="btn-proximo" data-proximo="1">tentar novamente</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>no final do caminho você encontra um despertador, e quando chega perto dele ele dispara.</p>
+            <button class="btn-proximo" data-proximo="11">acordar do sonho</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>o caminho a direita não leva a lugar nenhum</p>
+            <button class="btn-proximo" data-proximo="8">Retornar e tentar outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src=https://img.freepik.com/fotos-premium/mulher-acorda-em-uma-casa-de-campo-com-janelas-panoramicas-na-floresta-de-pinheiros-levantou-as-maos-ilustracao-de-ia-generativa_87561-8320.jpg?w740 alt="good ending">
+            <p>você finalmente acorda de seu sonho e tudo fica bem</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>você tenta voltar para o caminho em que estava mas acaba encontrando a cabana novamente</p>
+            <button class="btn-proximo" data-proximo="2">entrar na cabana</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>você voltou para casa, e nunca irá descobrir o que aconteceu com você</p>
+            <img src=https://img.freepik.com/fotos-gratis/mulher-em-frente-a-casa_53876-105359.jpg?tst1726482367~exp1726485967~hmac4c81ecb51333951671f7e07818b9d1c21a33c8499711ed66529014bddc2f921a&w740 alt="fake ending">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
